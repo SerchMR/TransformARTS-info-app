@@ -9,12 +9,7 @@ export default function StickyLayout() {
             <StickyNav />
             {/* Hero */}
             <section className="et-hero-tabs">
-            <Image
-  src="/assets/img/logotransmi-removebg.png"
-  alt="Logo Transmi"
-  width={300}
-  height={150}
-/>
+
                 <div className="et-hero-tabs-container">
                     <a className="et-hero-tab" href="#tab-es6">TITULO 1</a>
                     <a className="et-hero-tab" href="#tab-flexbox">TITULO 2</a>
