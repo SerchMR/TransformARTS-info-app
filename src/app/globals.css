@@ -1,5 +1,6 @@
 body {
   font-family: "Century Gothic", "Lato", sans-serif;
+  overflow: scroll;
 }
 
 a {
@@ -88,4 +89,10 @@ a {
   .et-hero-tab {
     font-size: 1rem;
   }
+}
+.left-aligned-list {
+  
+  text-align: left;
+  align-self: flex-start; /* para que el <ul> se alinee a la izquierda del contenedor flex */
+  padding-left: 2rem;     /* opcional, para espacio desde el borde */
 }
