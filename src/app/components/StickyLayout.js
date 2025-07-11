@@ -9,7 +9,7 @@ export default function StickyLayout() {
             {/* Hero */}
 
             <section className="et-hero-tabs">
-                <a href="https://transmigrarts.udistrital.edu.co/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.transmigrarts.com/" target="_blank" rel="noopener noreferrer">
                     <img src="/assets/img/transformarts.png" width={1000} alt="Logo Transmi" />
                 </a>
                 <div className="et-hero-tabs-container">
