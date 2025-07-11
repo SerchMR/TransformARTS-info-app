@@ -10,7 +10,7 @@ export default function StickyLayout() {
 
             <section className="et-hero-tabs">
                 <a href="https://www.transmigrarts.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="/assets/img/logotransmi-removebg.png" width={500} alt="Logo Transmi" />
+                    <img src="/assets/img/transformarts.png" width={1000} alt="Logo Transmi" />
                 </a>
                 <div className="et-hero-tabs-container">
                     <a className="et-hero-tab" href="#tab-es6">Acerca de</a>
@@ -26,20 +26,41 @@ export default function StickyLayout() {
                 <section className="et-slide" id="tab-es6">
                     <h1>Relevancia del proyecto</h1>
                     <h3>
+                        Nuestros proyectos se desarrollan con un fuerte enfoque en la generación de impacto real y sostenible, alineados con estándares internacionales y respondiendo a las necesidades de las comunidades a las que servimos. Contamos con el respaldo de equipos de investigadores universitarios con amplia experiencia, lo que asegura la calidad y pertinencia de cada resultado.
 
-                        La hipótesis de nuestro programa de investigación es que las artes escénicas, a través de las herramientas de investigación-creación pueden contribuir a transformar y mejorar los modos de existencia que han sido adscritos a los migrantes en situaciones de vulnerabilidad.
+                        Sin embargo, somos conscientes de que la entrega de productos y resultados no siempre garantiza cambios duraderos. Por eso, concebimos la sostenibilidad como un eje fundamental: diseñamos estrategias para que los beneficios de cada proyecto se mantengan en el tiempo, integrando este enfoque en nuestros procesos de formación y desarrollo curricular.
+
+                        Un claro ejemplo de esto es el proyecto TransMigrArts, financiado por la Unión Europea mediante la subvención Marie Skłodowska-Curie. En él, aplicamos metodologías de investigación participativas e iterativas para fortalecer la sostenibilidad de iniciativas artísticas y sociales que impactan directamente a comunidades migrantes en situación de vulnerabilidad.
+
+                        Fruto de este trabajo interdisciplinario, desarrollamos Transform-ARTS, un cuestionario innovador compuesto por quince preguntas que permite evaluar el impacto transformador de talleres artísticos en estas comunidades. Este instrumento se ha materializado en una aplicación web accesible y disponible en español, francés e inglés, diseñada por un equipo de estudiantes de ingeniería, expertos en diseño web y educadores comprometidos con la inclusión y la interactividad.
+
+                        De esta forma, unimos investigación, tecnología y compromiso social para que cada proyecto trascienda su fase inicial y contribuya a una transformación real y sostenible.
                     </h3>
                 </section>
-                
+
                 <section className="et-slide" id="tab-flexbox">
                     <h1>OBJETIVOS E IMPACTO DEL PROYECTO</h1>
                     <ul className="left-aligned-list">
-                        <li><h3>Transformar el daño</h3></li>
-                        <li><h3>Demostrar la capacidad de las artes para innovar socialmente</h3></li>
-                        <li><h3>Estimular la creación de una comunidad internacional</h3></li>
-                        <li><h3>Observar, evaluar, modelar e implementar </h3></li>
+
+                        <li><h3>Garantizar la relevancia y sostenibilidad de los proyectos</h3></li>
+                        <h3>Asegurar que los proyectos propuestos respondan a necesidades reales y mantengan sus beneficios a largo plazo, mediante estrategias de sostenibilidad integradas desde su diseño.</h3>
+
+                        <li><h3>Fortalecer la cooperación interdisciplinaria</h3></li>
+                        <h3>
+                            Impulsar la colaboración entre investigadores, comunidades y expertos de distintas disciplinas para enriquecer el desarrollo y la implementación de soluciones innovadoras.
+                        </h3>
+
+                        <li><h3>Desarrollar capacidades de sostenibilidad en contextos universitarios</h3></li>
+                        <h3>
+                            Integrar la sostenibilidad como competencia transversal en los currículos universitarios, formando profesionales capaces de mantener y ampliar los impactos de los proyectos.
+                        </h3>
+
+                        <li><h3>Aplicar metodologías participativas e iterativas</h3></li>
+                        <h3>
+                            Utilizar enfoques de investigación basados en diseño, con la participación activa de las comunidades beneficiarias, para garantizar que los resultados sean pertinentes y adaptables.
+                        </h3>
                     </ul>
-                    
+
 
                 </section>
                 {/* 

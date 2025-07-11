@@ -15,7 +15,7 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #eee;
+  background: #fff;
   text-align: center;
   padding: 0 2em;
 }
@@ -42,7 +42,7 @@ a {
   width: 100%;
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: #eee;
   z-index: 10;
 }
 
@@ -63,8 +63,8 @@ a {
 }
 
 .et-hero-tab:hover {
-  color: white;
-  background: rgba(102, 177, 241, 0.8);
+  color: rgba(137, 91, 57, 255);
+  background: rgba(44, 44, 107, 1);
   transition: all 0.5s ease;
 }
 
@@ -73,7 +73,7 @@ a {
   bottom: 0;
   width: 0;
   height: 6px;
-  background: #66b1f1;
+  background: rgba(44, 44, 107, 1);
   transition: left 0.3s ease;
 }
 
@@ -95,4 +95,28 @@ a {
   text-align: left;
   align-self: flex-start; /* para que el <ul> se alinee a la izquierda del contenedor flex */
   padding-left: 2rem;     /* opcional, para espacio desde el borde */
+}
+
+#tab-es6 h3 {
+  align-self: center;
+  text-align: justify;
+  width: 70%;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+#tab-flexbox li h3 {
+  align-self: center;
+  text-align: justify;
+  width: 70%;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+}
+
+#tab-flexbox h3 {
+  align-self: center;
+  text-align: justify;
+  width: 80%;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
 }
